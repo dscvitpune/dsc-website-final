@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i");
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+nav {
+	background:	#000;
+	opacity: 0.8; 
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  	padding: 5px 50px;
+}
+
+.sticky img{
+	height: 100%;
+	max-width: 100%;
+	max-height: 50px;
+	width: 250px;
+}
+
+nav p {
+	color: #ffffff;
+	font-weight: bold;
+	margin: 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.burger {
+	border: 0;
+	cursor: pointer;
+	display: none;
+	font-size: 22px;
+	position: relative;
+	padding: 0;
+  	outline: none !important;
+	height: 30px;
+	width: 30px;
+}
+
+.burger:active {
+	color: #000000;
+	outline: none;
+}
+
+.burger .bar {
+	background-color: #000000 !important;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	height: 3px;
+	width: 20px;
+	transition: transform 0.2s ease;
+}
+
+.burger .bar:first-of-type {
+	top: 40%;
+}
+
+.burger .bar:last-of-type {
+	top: 60%;
+}
+
+.sticky ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav-ul {
+	margin: 0 10px;
+	padding: 0px 5px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-li a {
+	color: #ffffff;
+	position: relative;
+  	text-decoration: none !important;
+}
+
+.nav-li a::after {
+	content: '';
+	background-color: #ffffff;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	opacity: 0;
+	height: 2px;
+	width: 100%;
+	transition: transform 0.2s ease;
+}
+
+.nav-li a:hover::after {
+	opacity: 1;
+  transform: translateY(-15px);
+}
+
+.nav-li {
+	margin: 15px;
+}
+
+@media screen and (max-width: 910px) {
+
+	nav {
+    	padding: 5px 10px;
+	}
+	  
+	.burger {
+		display: block;
+	}
+	
+	.burger.show-x .bar:first-of-type {
+		transform: translate(-50%, 50%) rotate(225deg);
+	}
+	
+	.burger.show-x .bar:last-of-type {
+		transform: translate(-50%, -150%) rotate(-225deg);
+	}
+	
+	.nav-ul {
+		background-color: #000000;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+		flex-direction: column;
+		text-align: center;
+		position: fixed;
+		top: 80px;
+		left: 10%;
+		transform: translateX(120%);
+		width: 80%;
+		transition: transform 0.3s ease-in;
+		z-index: 100;
+	}
+	
+	.nav-ul.show {
+		transform: translateX(0);
+	}
+	
+	ul {
+		margin: 15px;
+	}
+}

@@ -1,0 +1,595 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i");
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.ch-thumb {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);
+	
+	-webkit-transform-origin: 95% 40%;
+	-moz-transform-origin: 95% 40%;
+	-o-transform-origin: 95% 40%;
+	-ms-transform-origin: 95% 40%;
+	transform-origin: 95% 40%;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.ch-thumb:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	border-radius: 50%;
+	top: 40%;
+	left: 95%;
+	margin: -4px 0 0 -4px;
+	background: rgb(14,14,14);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(14,14,14,1)), color-stop(100%,rgba(125,126,125,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	box-shadow: 0 0 1px rgba(255,255,255,0.9);
+}
+
+
+.ch-img-lead { 
+	background-image: url(../../images/team_web/Tanishka\ Gupta.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+.ch-img-web-1 { 
+	background-image: url(../../images/team_web/aniket_ghorpade.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+.ch-img-web-2 { 
+	background-image: url(../../images/team_web/Raj_Image_DSC\ -\ RAJ\ SHAH.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-3 { 
+	background-image: url(../../images/team_web/Anjali_Deore_circle\ ANJALI_DEORE\ \(1\).png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-web-4 { 
+	background-image: url(../../images/team_web/Sanket.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-web-5 { 
+	background-image: url(../../images/team_web/anurag_kulkarni.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-6 { 
+	background-image: url(../../images/team_web/IMG_20200517_193151_351\ -\ ADITYA\ SHINDE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-7 { 
+	background-image: url(../../images/team_web/Pratik\ Square\ -\ PRATIK\ FANDADE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-web-8 { 
+	background-image: url(../../images/team_web/gumt1l\ -\ YASH\ LAHOTI.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-9{ 
+	background-image: url(../../images/team_web/IMG_20200401_185547-01001toedit\ -\ VISHAL\ KHANDATE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-10{ 
+	background-image: url(../../images/team_web/himanshu_bulani.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+.ch-img-web-11{ 
+	background-image: url(../../images/team_web/IMG_20200919_172229\ -\ RITESH\ THAKUR.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+.ch-img-flutter-1{ 
+	background-image: url(../../images/team_flutter/mihir_tale\ -\ MIHIR\ TALE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-flutter-2{ 
+	background-image: url(../../images/team_flutter/sailesh\ kadam.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-3{ 
+	background-image: url(../../images/team_flutter/anirudh_image\ -\ ANIRUDH\ KOLWADKAR.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-4{ 
+	background-image: url(../../images/team_flutter/tanay_vartak\ -\ TANAY\ VARTAK.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-5{ 
+	background-image: url(../../images/team_flutter/Pranali_Pardeshi_Circle.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-flutter-6{ 
+	background-image: url(../../images/team_flutter/CB7116B7-FC4D-4648-944E-947E45F0FA3E\ -\ SAJAL\ BHATTAR.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-7{ 
+	background-image: url(../../images/team_flutter/20200919_163339\ -\ LAUKIK\ AVHAD.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+.ch-img-mm-1{ 
+	background-image: url(../../images/management/atharva_dongare.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-2{ 
+	background-image: url(../../images/management/Rachit.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+.ch-img-mm-3{ 
+	background-image: url(../../images/management/Ashwini.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-4{ 
+	background-image: url(../../images/management/shreyash_sawai.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-5{ 
+	background-image: url(../../images/management/favin.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-6{ 
+	background-image: url(../../images/management/Sarvesh.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-7{ 
+	background-image: url(../../images/management/Rohith.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-8{ 
+	background-image: url(../../images/management/Aryan_jain.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-9{ 
+	background-image: url(../../images/management/priyanka.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-10{ 
+	background-image: url(../../images/management/shreyash.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mm-11{ 
+	background-image: url(../../images/management/pratik\ kedar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+
+
+.ch-img-pr_m-1{ 
+	background-image: url(../../images/project_manager/prasanna.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-pr_m-2{ 
+	background-image: url(../../images/project_manager/shardul.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+.ch-img-and-1{ 
+	background-image: url(../../images/head/sanket_umredkar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+.ch-img-and-2{ 
+	background-image: url(../../images/Android/Ansh\ Gaikwad.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+.ch-img-and-3{ 
+	background-image: url(../../images/Android/Ameya\ Thakur.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+.ch-img-and-4{ 
+	background-image: url(../../images/Android/Sandhya.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-and-5{ 
+	background-image: url(../../images/Android/Varun\ Ringnekar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+.ch-img-and-6{ 
+	background-image: url(../../images/Android/Aditya_honarao.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-head-1{ 
+	background-image: url(../../images/head/sagar_wankhede.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mul-1{ 
+	background-image: url(../../images/Multimedia/Varad\ Kukarni.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mul-2{ 
+	background-image: url(../../images/Multimedia/Akshay_lunawat.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.ch-img-mul-3{ 
+	background-image: url(../../images/Multimedia/Akshay\ Sargar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ch-img-2 { 
+	background-image: url(../../images/team_images/test.jpg);
+	z-index: 12;
+}
+
+.ch-img-3 { 
+	background-image: url(../../images/team_images/test.jpg);
+	z-index: 12;
+}
+
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #4285F4 url(../../images/team_images/noise.png);
+	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 0 40px;
+	padding: 22px 0 0 0;
+	height: 55px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info h4 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 0 30px;
+	padding: 20px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #333;
+	width: 80px;
+	height: 80px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	color: #fff;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 24px;
+	margin: 7px auto 0;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0;
+	
+	-webkit-transition: 
+		-webkit-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-moz-transition: 
+		-moz-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-o-transition: 
+		-o-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-ms-transition: 
+		-ms-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	transition: 
+		transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+		
+	-webkit-transform: translateX(60px) rotate(90deg);
+	-moz-transform: translateX(60px) rotate(90deg);
+	-o-transform: translateX(60px) rotate(90deg);
+	-ms-transform: translateX(60px) rotate(90deg);
+	transform: translateX(60px) rotate(90deg);
+		
+	-webkit-backface-visibility: hidden;
+}
+
+.ch-info p a:hover {
+	background: rgba(255,255,255,0.5);
+}
+.ch-item:hover .ch-thumb {
+	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(-110deg);
+	-moz-transform: rotate(-110deg);
+	-o-transform: rotate(-110deg);
+	-ms-transform: rotate(-110deg);
+	transform: rotate(-110deg);
+}
+.ch-item:hover .ch-info p a{
+	opacity: 1;
+	-webkit-transform: translateX(0px) rotate(0deg);
+	-moz-transform: translateX(0px) rotate(0deg);
+	-o-transform: translateX(0px) rotate(0deg);
+	-ms-transform: translateX(0px) rotate(0deg);
+	transform: translateX(0px) rotate(0deg);
+}
+
+/* Header Text */
+.team-header-title {
+	padding-top: 5%;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif !important;
+	color:#000000;
+}
+
+.button-wrapper {
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+.hide-show-button {
+	display: inline-block;
+	padding: 7px 20px;
+	font-size: 24px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg,  #4285F4 0%,  #4285F4 100%);
+    background-image:linear-gradient(45deg,  #4285F4; 0%,   #4285F4 100%);
+	transition: .4s;
+	outline: none;
+}
+
+.hide-show-button:hover {
+    background-image: -webkit-linear-gradient(45deg,  #4285F4 0%,  #4285F4 100%);
+    background-image: linear-gradient(45deg,  #4285F4; 0%,   #4285F4 100%);
+}
+
+.responsive-images {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+.text-box-left {
+	font-size: 20px;
+	float: left;
+	max-width: 200px;
+	padding: 30px;
+	align-items: center;
+}
+
+
+.fa-discord:before {
+    content: "\f392";
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
