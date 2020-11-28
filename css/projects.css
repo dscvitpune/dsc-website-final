@@ -26,11 +26,16 @@ html, body {
   margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
 
+video {
+  width: 100%;
+  max-height: 100%;
+}
+
 .push {
   height: 200px;
 }
 
-.land_page img{
+.land_page video{
     border-radius: 50%;
     max-height: 400px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
@@ -283,8 +288,8 @@ img {
 	 border: none;
 	 border-radius: 8px;
 	 text-decoration: none;
-	 color: #000000;
-	 background-color: rgba(66, 133, 244, 0.8);
+	 color: #fff;
+	 background-color: rgba(0, 98, 255, 0.9);
 	 transition: all .25s linear;
 	 margin-bottom: 10px;
 }
