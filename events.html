@@ -1817,7 +1817,73 @@
           <div class="tab-pane fade" id="upcoming-events" role="tabpanel" aria-labelledby="upcoming-events-tab">
             <div class="main">
               <h1 class="m-4">Upcoming Events</h1>
-              <h2>Stay tuned for upcoming events </h2>
+              <!-- <h2>Stay tuned for upcoming events </h2> -->
+
+              <ul class="cards">
+                
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="images/posters/android-study-jam-kotlin.jpeg" />
+                    </div>
+                    <div class="card_content card-body d-flex flex-column">
+                      <h2 class="card_title">Android Study Jam - Kotlin</h2>
+                      <p class="card_text">
+                        
+                      </p>
+                      <button data-modal-trigger="upcoming-event-modal-1" class="mt-auto demo__btn demo__btn--secondary">
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+
+            <div class="modal" data-modal-name="upcoming-event-modal-1">
+              <div class="modal__dialog">
+                <button class="modal__close" data-modal-dismiss>×</button>
+                <header class="modal__header">
+                  <h2 class="modal__title">Android Study Jam - Kotlin</h2>
+                </header>
+                <div class="modal__content">
+                    <div id="upcoming-event-carousel-1" class="carousel slide mb-3" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#upcoming-event-carousel-1" data-slide-to="0" class="active"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/events_images/android-study-jam-kotlin-inside.jpeg" alt="android-study-jam-kotlin">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#upcoming-event-carousel-1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#upcoming-event-carousel-1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  <h4 class="modal_description">Description</h4>
+                  </p>
+                  <p>Ever wondered how does the app you're reading this message on work? 👨🏻‍💻
+                    What makes Android the potent development platform for app distribution?
+                  </p>
+                  <p>
+                    DSC VIT Pune brings to you Android Study Jam, where you can explore Android to the fullest! 💫.
+                  </p>
+                    <!-- <p class="modal_description">23th & 24th March 2019
+                    <br>30th & 31st March 2019</p>
+                    <p class="modal_description">Attendees : 60+
+                    </p> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-modal-dismiss>Close</button>
+                </div>
+              </div>
             </div>
 
             <!-- Sample Modal Start (Customizable and change the trigger) -->
