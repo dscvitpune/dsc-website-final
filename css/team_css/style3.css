@@ -561,14 +561,14 @@
     text-decoration: none;
     color: #FFF;
     background-image: -webkit-linear-gradient(45deg,  #4285F4 0%,  #4285F4 100%);
-    background-image:linear-gradient(45deg,  #4285F4; 0%,   #4285F4 100%);
+    background-image:linear-gradient(45deg,  #4285F4 0%,   #4285F4 100%);
 	transition: .4s;
 	outline: none;
 }
 
 .hide-show-button:hover {
     background-image: -webkit-linear-gradient(45deg,  #4285F4 0%,  #4285F4 100%);
-    background-image: linear-gradient(45deg,  #4285F4; 0%,   #4285F4 100%);
+    background-image: linear-gradient(45deg,  #4285F4 0%,   #4285F4 100%);
 }
 
 .responsive-images {

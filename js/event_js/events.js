@@ -74,7 +74,7 @@ function past_events_loader_default() {
         $('.loader').hide();
         past.classList.add("show");
         past.classList.add("active");
-    }, 3000);
+    }, 1000);
 
     // disable_all();
 }
@@ -89,7 +89,7 @@ function past_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         past.style.display = "block";
-    }, 3000);
+    }, 1000);
 }
 
 function ongoing_events_loader_click() {
@@ -102,7 +102,7 @@ function ongoing_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         ongoing.style.display = "block";
-    }, 3000);
+    }, 1000);
 }
 
 function upcoming_events_loader_click() {
@@ -115,5 +115,5 @@ function upcoming_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         upcoming.style.display = "block";
-    }, 3000);
+    }, 1000);
 }
