@@ -1,3 +1,4 @@
-# dsc-website-static
+# DSC VIT PUNE WEBSITE
 
-Static website of DSC VIT PUNE
+[Check out what we do!] (https://dscvitpune.com)
+ 
