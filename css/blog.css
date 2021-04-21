@@ -6,7 +6,8 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -33,19 +34,23 @@ html, body {
     height: 200px;
 }
 
-.red_carder, .blog-card>.description:before {
+.red_carder,
+.blog-card>.description:before {
     background: rgba(234, 67, 53, 1);
 }
 
-.blue_carder, .blog-card>.description:before {
+.blue_carder,
+.blog-card>.description:before {
     background: rgba(66, 133, 244, 1);
 }
 
-.green_carder, .blog-card>.description:before {
+.green_carder,
+.blog-card>.description:before {
     background: rgba(52, 168, 83, 1);
 }
 
-.yellow_carder, .blog-card>.description:before {
+.yellow_carder,
+.blog-card>.description:before {
     background: rgba(251, 188, 5, 1);
 }
 
@@ -60,6 +65,10 @@ html, body {
     text-align: left;
     /* font-family: sans-serif; */
     /*     margin-left: 370px; */
+}
+
+.creator h4 span {
+    color: #fff;
 }
 
 .blog-card {
@@ -121,7 +130,8 @@ html, body {
     transition: transform 0.2s;
 }
 
-.blog-card .details, .blog-card .details ul {
+.blog-card .details,
+.blog-card .details ul {
     margin: auto;
     padding: 0;
     list-style: none;
@@ -148,7 +158,8 @@ html, body {
     z-index: 1;
 }
 
-.blog-card .description h1, .blog-card .description h2 {
+.blog-card .description h1,
+.blog-card .description h2 {
     /* font-family: Poppins, sans-serif; */
 }
 
@@ -195,16 +206,16 @@ html, body {
     margin: 1rem 0 0;
 }
 
-.blog-card p:first-of-type {
+.blog-card p {
     margin-top: 1.25rem;
 }
 
-.blog-card p:first-of-type:before {
+.blog-card p:before {
     content: "";
     position: absolute;
     height: 5px;
     background: #000000;
-    width: 35px;
+    width: 8rem;
     top: -0.75rem;
     border-radius: 3px;
 }
@@ -262,6 +273,7 @@ a:visited {
     margin-top: 10vh;
 }
 
+
 /* section {
     height: 75vh;
     background-image: linear-gradient(to bottom, rgba(14, 13, 13, 0.52), rgba(43, 36, 36, 0.5)), url("https://annexq.io/wp-content/uploads/2020/09/1691795.jpg");
@@ -272,6 +284,7 @@ a:visited {
     background-position: center center;
     display: flex;
 } */
+
 
 /*section:before
 {
