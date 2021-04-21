@@ -1,263 +1,288 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i");
-
 html {
-  font-size: 14px;
-  line-height: 1.2;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.2;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
-html, body {
-  margin: 0;
-  padding-top: 30px;
-  overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  background-image: url("../images/background.jpeg");
-  background-repeat: repeat-y;
+html,
+body {
+    margin: 0;
+    padding-top: 30px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    background-image: url("../images/background.jpeg");
+    background-repeat: repeat;
+    -webkit-animation: slide 10s linear infinite;
 }
 
-*{
-  box-sizing: border-box;
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px;
+    /* the bottom margin is the negative value of the footer's height */
 }
 
 .push {
-  height: 100px;
-  background: inherit;
-  background-color: inherit;
+    height: 100px;
+    background: inherit;
+    background-color: inherit;
 }
 
 main {
-  position: relative;
-  perspective: 600px;
-  margin-bottom: 50px;
+    position: relative;
+    perspective: 600px;
+    margin-bottom: 50px;
 }
 
 .intro-carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 .intro-carousel img {
-  display: none;
+    display: none;
 }
 
 .flickity-viewport {
-  height: 100% !important;
+    height: 100% !important;
 }
 
 .flickity-button flickity-prev-next-button next {
-  visibilty: hidden;
+    visibilty: hidden;
 }
 
 .intro-cell {
-  width: 100%;
-  height: 100%;
-  text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .intro-text {
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
-  transform: translateX(-50%);
-  max-width: 400px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    max-width: 400px;
 }
+
 .intro-text h1 {
-  font-weight: 600;
-  font-size: 45px;
-  margin: 0;
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0;
 }
+
 .intro-text h2 {
-  font-size: 16px;
-  text-transform: uppercase;
-  margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
 }
+
 .intro-text p {
-  font-size: 21px;
-  line-height: 1.5;
+    font-size: 21px;
+    line-height: 1.5;
 }
+
 .intro-text .feature {
-  height: 800px;
+    height: 800px;
 }
 
 @media screen and (max-width: 760px) {
-  .intro-text {
-    margin-top: 800px;
-  }
+    .intro-text {
+        margin-top: 800px;
+    }
 }
+
 
 /*-----------Sections Starts--------------*/
 
 .col-md-3 {
-  text-align: center;
-  padding-bottom: 50px;
-  
-  /* margin: 0px 10px; */
+    text-align: center;
+    padding-bottom: 50px;
+    /* margin: 0px 10px; */
 }
 
-  .col-md-3 h1{
+.col-md-3 h1 {
     font-size: 2.5rem;
-  }
-  .col-md-3 h3{
+}
+
+.col-md-3 h3 {
     margin-bottom: .5rem;
     font-weight: 700;
     font-size: 1.75rem;
     line-height: 1.2;
-  }
+}
 
 .blue i {
-  padding: 15px;
-  border-radius: 45%;
-  border: 8px solid #4285F4;
+    padding: 15px;
+    border-radius: 45%;
+    border: 8px solid #4285F4;
 }
 
 .red i {
-  padding: 15px;
-  border-radius: 45%;
-  border: 8px solid #DB4437;
+    padding: 15px;
+    border-radius: 45%;
+    border: 8px solid #DB4437;
 }
 
 .yellow i {
-  padding: 15px;
-  border-radius: 45%;
-  border: 8px solid #F4B400;
-  
+    padding: 15px;
+    border-radius: 45%;
+    border: 8px solid #F4B400;
 }
 
 .green i {
-  padding: 15px;
-  border-radius: 45%;
-  border: 8px solid #0F9D58;
+    padding: 15px;
+    border-radius: 45%;
+    border: 8px solid #0F9D58;
 }
 
 i {
-  font-size: 20px !Important;
+    font-size: 20px !Important;
 }
 
 @media (max-width: 991px) {
-  .col-md-3 {
-    width: 40%;
-    margin: auto auto;
-  }
+    .col-md-3 {
+        width: 40%;
+        margin: auto auto;
+    }
 }
 
 .btn {
-  background-color: #5871CB;
-  border-radius: 40px;
-  color: white;
-  margin: 10px 0px 0px;
+    background-color: #5871CB;
+    border-radius: 40px;
+    color: white;
+    margin: 10px 0px 0px;
 }
 
 .para {
-  font-size: 20px;
-  color: #000000;
+    font-size: 20px;
+    color: #000000;
 }
 
 .left {
-  padding-top: 100px;
-  padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.lead-con{
-  padding-top:50px;
-  padding-bottom:50px;
-  background:rgba(00, 00, 00, 0.05);
+.lead-con {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(00, 00, 00, 0.05);
 }
 
-.contact-back{
-  padding-top:50px;
-  padding-bottom:50px;
-  background:rgba(76, 162, 196, 0.5);
+.contact-back {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(76, 162, 196, 0.5);
 }
 
 .white {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 .image-fluid {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .parallaxone {
-  width: 100%;
-  height: 600px;
-  margin: 15px 5px;
-  background-size: 100% 100%;
-  background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    margin: 15px 5px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 @media (max-width: 480px) {
-  .parallaxone {
-    width: 100%;
-    height: 800px;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-  }
+    .parallaxone {
+        width: 100%;
+        height: 800px;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
 }
+
 
 /*-----------Sections Starts--------------*/
 
 
 /* Section Button CSS Sta */
 
-.container a{
-  text-decoration: none;
+.container a {
+    text-decoration: none;
 }
+
 .buttonn {
-  display: inline-block;
-  padding: 0.75rem 1.25rem;
-  border-radius: 10rem;
-  color: #fff;
-  font-size: 1rem;
-  letter-spacing: 0.15rem;
-  transition: all 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
+
 .buttonn:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4285F4;
-  border-radius: 10rem;
-  z-index: -2;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4285F4;
+    border-radius: 10rem;
+    z-index: -2;
 }
+
 .buttonn:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #0c52c4;
-  transition: all 0.3s;
-  border-radius: 10rem;
-  z-index: -1;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0c52c4;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
 }
+
 .buttonn:hover {
-  color: #fff;
+    color: #fff;
 }
+
 .buttonn:hover:before {
-  width: 100%;
+    width: 100%;
 }
+
 .container {
-  margin: 0 auto;
-  width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
+
+
 /* Section Button CSS End */
