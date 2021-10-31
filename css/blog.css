@@ -109,7 +109,7 @@ body {
 }
 
 .blog-card:hover .photo {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .blog-card .meta {

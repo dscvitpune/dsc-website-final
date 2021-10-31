@@ -50,390 +50,371 @@
 }
 
 
+/* Core Team */
+
 .ch-img-lead { 
-	background-image: url(../../images/head/Sandhya.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-smh-1 { 
-	background-image: url(../../images/head/Tatikondalwar\ Akshay.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-hoc-1 { 
-	background-image: url(../../images/head/Favin\ Fernandes.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-mmh-1 { 
-	background-image: url(../../images/head/ARYAN\ JAIN.png);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-1 { 
-	background-image: url(../../images/head/ANURAG\ KULKARNI.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-2 { 
-	background-image: url(../../images/team_web/Nayan\ Bari.png);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-3 { 
-	background-image: url(../../images/team_web/ANJALI\ DEORE.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-web-4 { 
-	background-image: url(../../images/team_web/SANKET\ SHINDE.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-web-5 { 
-	background-image: url(../../images/team_web/Dongre\ Chandrashekhar.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-6 { 
-	background-image: url(../../images/team_web/SAHARSH\ SAMIR.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-7 { 
-	background-image: url(../../images/team_web/Gokhale\ Vedant.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-web-8 { 
-	background-image: url(../../images/team_web/NISHA\ MODANI.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-9{ 
-	background-image: url(../../images/team_web/Vishal\ Khandate.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-10{ 
-	background-image: url(../../images/team_web/himanshu_bulani.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-.ch-img-web-11{ 
-	background-image: url(../../images/team_web/Wader\ Rewa.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-12{ 
-	background-image: url(../../images/team_web/Rupauliha\ Kartik.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-web-13{ 
-	background-image: url(../../images/team_web/Amey\ Joshi.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-1{ 
-	background-image: url(../../images/head/PRANALI\ PARDESHI.png);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-flutter-2{ 
-	background-image: url(../../images/team_flutter/sailesh\ kadam.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-3{ 
-	background-image: url(../../images/team_flutter/Pushkar\ Pawar.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-4{ 
-	background-image: url(../../images/team_flutter/DEVEN\ BHADANE.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-5{ 
-	background-image: url(../../images/team_flutter/SATTIGERI\ SOHAM.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-flutter-6{ 
-	background-image: url(../../images/team_flutter/CB7116B7-FC4D-4648-944E-947E45F0FA3E\ -\ SAJAL\ BHATTAR.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-7{ 
-	background-image: url(../../images/team_flutter/AAKASH\ NIHALANI.JPG);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-8{ 
-	background-image: url(../../images/team_flutter/VEDANT\ JORE.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-9{ 
-	background-image: url(../../images/team_flutter/Mitrajeet\ Golsangi.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-
-.ch-img-mm-1{ 
-	background-image: url(../../images/head/Ashwini.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-mm-2{ 
-	background-image: url(../../images/management/SARTHAK\ JAISWAL.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-.ch-img-mm-3{ 
-	background-image: url(../../images/management/Patel\ Nehali.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-mm-4{ 
-	background-image: url(../../images/management/Sondur\ Mrunal.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-mm-5{ 
-	background-image: url(../../images/management/favin.jpg);
+	background-image: url(../../images/team/heads/Sandhya.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
 .ch-img-mm-6{ 
-	background-image: url(../../images/head/Sarvesh.jpg);
+	background-image: url(../../images/team/heads/Sarvesh.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-.ch-img-mm-7{ 
-	background-image: url(../../images/management/PUJAL\ MORE.jpeg);
+.ch-img-web-1 { 
+	background-image: url(../../images/team/heads/ANURAG\ KULKARNI.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
-
-
-.ch-img-mm-8{ 
-	background-image: url(../../images/multimedia/RUGVED\ PANDE.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-mm-10{ 
-	background-image: url(../../images/multimedia/Shambhavi\ Lalsinge.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-mm-12{ 
-	background-image: url(../../images/multimedia/Shrusti.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-ct-1{ 
-	background-image: url(../../images/content/ANURAG\ JINDAL.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-ct-2{ 
-	background-image: url(../../images/content/Aryan\ Mamidwar.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-ct-3{ 
-	background-image: url(../../images/content/ARYA\ MEHTA.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-pr_m-1{ 
-	background-image: url(../../images/managers/RITESH\ THAKUR.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-pr_m-2{ 
-	background-image: url(../../images/managers/Laukik\ Avhad.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
 
 .ch-img-and-1{ 
-	background-image: url(../../images/head/ANSH\ GAIKWAD.jpg);
+	background-image: url(../../images/team/heads/ANSH\ GAIKWAD.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-
-
-
-.ch-img-and-2{ 
-	background-image: url(../../images/Android/Daga\ Shreya.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-
-.ch-img-and-3{ 
-	background-image: url(../../images/Android/Amged\ Almogahed.jpeg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-
-.ch-img-and-4{ 
-	background-image: url(../../images/Android/Khandge\ Ajay.png);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-.ch-img-and-5{ 
-	background-image: url(../../images/Android/Varun\ Ringnekar.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-
-.ch-img-and-6{ 
-	background-image: url(../../images/Android/Aditya_honarao.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-and-7{ 
-	background-image: url(../../images/Android/Kinage\ Atharv.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-and-8{ 
-	background-image: url(../../images/Android/NEGI\ AYUSH.jpeg);
+.ch-img-flutter-1{ 
+	background-image: url(../../images/team/heads/PRANALI\ PARDESHI.png);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
 .ch-img-head-1{ 
-	background-image: url(../../images/head/ROHITH\ RAJEEVAN.jpeg);
+	background-image: url(../../images/team/heads/ROHITH\ RAJEEVAN.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
+.ch-img-mm-1{ 
+	background-image: url(../../images/team/heads/Ashwini.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-smh-1 { 
+	background-image: url(../../images/team/heads/Tatikondalwar\ Akshay.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-hoc-1 { 
+	background-image: url(../../images/team/heads/Favin\ Fernandes.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mmh-1 { 
+	background-image: url(../../images/team/heads/ARYAN\ JAIN.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+/* Managers */
+.ch-img-pr_m-1{ 
+	background-image: url(../../images/team/managers/RITESH\ THAKUR.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-pr_m-2{ 
+	background-image: url(../../images/team/managers/Laukik\ Avhad.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
 
 .ch-img-mul-1{ 
-	background-image: url(../../images/managers/Amey\ Thakur.jpeg);
+	background-image: url(../../images/team/managers/Amey\ Thakur.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+/* Web Team */
+
+.ch-img-web-2 { 
+	background-image: url(../../images/team/web/Nayan\ Bari.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+.ch-img-web-4 { 
+	background-image: url(../../images/team/web/SANKET\ SHINDE.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-3 { 
+	background-image: url(../../images/team/web/ANJALI\ DEORE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-5 { 
+	background-image: url(../../images/team/web/Dongre\ Chandrashekhar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-6 { 
+	background-image: url(../../images/team/web/SAHARSH\ SAMIR.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-7 { 
+	background-image: url(../../images/team/web/Gokhale\ Vedant.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-8 { 
+	background-image: url(../../images/team/web/NISHA\ MODANI.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-9{ 
+	background-image: url(../../images/team/web/Vishal\ Khandate.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-10{ 
+	background-image: url(../../images/team/web/himanshu_bulani.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-11{ 
+	background-image: url(../../images/team/web/Wader\ Rewa.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-12{ 
+	background-image: url(../../images/team/web/Rupauliha\ Kartik.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-web-13{ 
+	background-image: url(../../images/team/web/Amey\ Joshi.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+/* Android Team */
+.ch-img-and-2{ 
+	background-image: url(../../images/team/android/Daga\ Shreya.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-3{ 
+	background-image: url(../../images/team/android/Amged\ Almogahed.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-4{ 
+	background-image: url(../../images/team/android/Khandge\ Ajay.png);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-5{ 
+	background-image: url(../../images/team/android/Varun\ Ringnekar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-6{ 
+	background-image: url(../../images/team/android/Aditya_honarao.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-7{ 
+	background-image: url(../../images/team/android/Kinage\ Atharv.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-and-8{ 
+	background-image: url(../../images/team/android/NEGI\ AYUSH.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/* Flutter Team */
+.ch-img-flutter-2{ 
+	background-image: url(../../images/team/flutter/sailesh\ kadam.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-3{ 
+	background-image: url(../../images/team/flutter/Pushkar\ Pawar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-4{ 
+	background-image: url(../../images/team/flutter/DEVEN\ BHADANE.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-5{ 
+	background-image: url(../../images/team/flutter/SATTIGERI\ SOHAM.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-6{ 
+	background-image: url(../../images/team/flutter/CB7116B7-FC4D-4648-944E-947E45F0FA3E\ -\ SAJAL\ BHATTAR.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-7{ 
+	background-image: url(../../images/team/flutter/AAKASH\ NIHALANI.JPG);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-8{ 
+	background-image: url(../../images/team/flutter/VEDANT\ JORE.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-flutter-9{ 
+	background-image: url(../../images/team/flutter/Mitrajeet\ Golsangi.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+/* Management Team */
+.ch-img-mm-2{ 
+	background-image: url(../../images/team/management/SARTHAK\ JAISWAL.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-3{ 
+	background-image: url(../../images/team/management/Patel\ Nehali.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-4{ 
+	background-image: url(../../images/team/management/Sondur\ Mrunal.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-5{ 
+	background-image: url(../../images/team/management/favin.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-7{ 
+	background-image: url(../../images/team/management/PUJAL\ MORE.jpeg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+/* Multimedia Team */
+.ch-img-mm-8{ 
+	background-image: url(../../images/team/multimedia/RUGVED\ PANDE.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-10{ 
+	background-image: url(../../images/team/multimedia/Shambhavi\ Lalsinge.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-mm-12{ 
+	background-image: url(../../images/team/multimedia/Shrusti.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/* Content Team */
+.ch-img-ct-1{ 
+	background-image: url(../../images/team/content/ANURAG\ JINDAL.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-ct-2{ 
+	background-image: url(../../images/team/content/Aryan\ Mamidwar.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.ch-img-ct-3{ 
+	background-image: url(../../images/team/content/ARYA\ MEHTA.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -443,21 +424,6 @@
 
 
 
-
-
-
-
-
-
-.ch-img-2 { 
-	background-image: url(../../images/team_images/test.jpg);
-	z-index: 12;
-}
-
-.ch-img-3 { 
-	background-image: url(../../images/team_images/test.jpg);
-	z-index: 12;
-}
 
 
 .ch-info {
@@ -466,7 +432,7 @@
 	height: 100%;
 	border-radius: 50%;
 	overflow: hidden;
-	background: #4285F4 url(../../images/team_images/noise.png);
+	background: #4285F4 url(../../images/team/team_images/noise.png);
 	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
 }
 

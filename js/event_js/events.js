@@ -79,6 +79,20 @@ function past_events_loader_default() {
     // disable_all();
 }
 
+function upcoming_events_loader_default() {
+    // console.log("I ran");
+
+    $('.loader').show();
+
+    setTimeout(function () {
+        $('.loader').hide();
+        upcoming.classList.add("show");
+        upcoming.classList.add("active");
+    }, 100);
+
+    // disable_all();
+}
+
 function past_events_loader_click() {
     // console.log("I ran in past onclick");
 
@@ -89,7 +103,7 @@ function past_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         past.style.display = "block";
-    }, 1000);
+    }, 0);
 }
 
 function ongoing_events_loader_click() {
@@ -102,7 +116,7 @@ function ongoing_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         ongoing.style.display = "block";
-    }, 1000);
+    }, 0);
 }
 
 function upcoming_events_loader_click() {
@@ -115,5 +129,5 @@ function upcoming_events_loader_click() {
     setTimeout(function () {
         $('.loader').hide();
         upcoming.style.display = "block";
-    }, 1000);
+    }, 0);
 }
