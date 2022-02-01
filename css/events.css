@@ -129,6 +129,11 @@ img {
     padding: 0;
 }
 
+
+.card_image {
+    object-fit: cover;
+}
+
 .cards_item {
     display: flex;
     padding: 2rem 1rem;

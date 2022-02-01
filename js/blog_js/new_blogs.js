@@ -27,23 +27,23 @@ $(document).ready(function () {
 
                     output += `
                         <div class="blog-card ${alt_cards[i % 2]} ">
-                        <div class="meta">
-                            <div class="photo" style="background-image: url(${data.items[i].thumbnail}); background-size: cover;"></div>
-                        </div>
-                        <div class="description ${card_colours[i % 4]}">
-                            <h1>${data.items[i].title}</h1>
+                            <div class="meta">
+                                <div class="photo" style="background-image: url(${data.items[i].thumbnail}); background-size: cover;"></div>
+                            </div>
+                            <div class="description ${card_colours[i % 4]}">
+                                <h1>${data.items[i].title}</h1>
                                 <div class="creator">
-                                <p></p>
-                                <h4>${da}-${mo}-${ye}</h4>
-                                <p></p>
-                                <h4><span>Author:</span> ${data.items[i].author}</h4>
+                                    <p></p>
+                                    <h4>${da}-${mo}-${ye}</h4>
+                                    <p></p>
+                                    <h4><span>Author:</span> ${data.items[i].author}</h4>
                                 </div>
-                            <div class="read-more">
-                                <button class="btn" ><a href="${data.items[i].link}" target="_blank">Read Here</a></button>
+                                <div class="read-more">
+                                    <button class="btn" ><a href="${data.items[i].link}" target="_blank">Read Here</a></button>
+                                </div>
                             </div>
                         </div>
-                        </div>
-                        </div><br><br>`
+                        <br>`;
                 };
                 $('.loader').hide();
 
