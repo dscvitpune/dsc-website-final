@@ -213,7 +213,8 @@
         <!--Update the URL for thank you page on form submit -->
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./';}"></iframe>
 
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdKVcVb18TiDvx2tLY2mr6dSZP_jFR519lnaMfGxaFaS5BRmQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+        <form name="contact-us" method="post" data-netlify="true">
+            <!-- onsubmit="return validateForm(); " -->
 
             <!-- Contact Us Start -->
             <div class="background lead-con white" id="contact-us">
@@ -245,16 +246,16 @@
                             <div class="screen-body-item right">
                                 <div class="app-form">
                                     <div class="app-form-group">
-                                        <input class="app-form-control" type="text" placeholder="Name" id="name" required name="entry.2005620554">
+                                        <input class="app-form-control" type="text" placeholder="Name" id="name" name="name" required>
                                     </div>
                                     <div class="app-form-group">
-                                        <input class="app-form-control" type="email" placeholder="Email" id="email" required name="entry.1045781291">
+                                        <input class="app-form-control" type="email" placeholder="Email" id="email" name="email" required>
                                     </div>
                                     <div class="app-form-group">
-                                        <input class="app-form-control" type="tel" placeholder="Contact No." id="phone" required name="entry.1166974658">
+                                        <input class="app-form-control" type="tel" placeholder="Contact No." id="phone" name="phone" required>
                                     </div>
                                     <div class="app-form-group message">
-                                        <textarea class="app-form-control" type="text" placeholder="Message" id="message" required name="entry.839337160" rows="5"></textarea>
+                                        <textarea class="app-form-control" type="text" placeholder="Message" id="message" name="message" rows="5" required></textarea>
                                     </div>
                                     <div class="app-form-group buttons">
                                         <button type="submit" class="app-form-button">SEND</button>
