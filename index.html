@@ -211,10 +211,9 @@
         </script>
 
         <!--Update the URL for thank you page on form submit -->
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./';}"></iframe>
+        <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./';}"></iframe> -->
 
-        <form name="contact-us" method="post" data-netlify="true" data-netlify-recaptcha="true">
-            <!-- onsubmit="return validateForm(); " -->
+        <form name="contact-us" action="/" method="post" data-netlify="true" data-netlify-recaptcha="true" onsubmit="return validateForm(); ">
 
             <!-- Contact Us Start -->
             <div class="background lead-con white" id="contact-us">
