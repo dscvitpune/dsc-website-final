@@ -213,7 +213,7 @@
         <!--Update the URL for thank you page on form submit -->
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./';}"></iframe>
 
-        <form name="contact-us" method="post" data-netlify="true">
+        <form name="contact-us" method="post" data-netlify="true" data-netlify-recaptcha="true">
             <!-- onsubmit="return validateForm(); " -->
 
             <!-- Contact Us Start -->
@@ -257,6 +257,8 @@
                                     <div class="app-form-group message">
                                         <textarea class="app-form-control" type="text" placeholder="Message" id="message" name="message" rows="5" required></textarea>
                                     </div>
+                                    <!-- reCAPTCHA 2 -->
+                                    <div data-netlify-recaptcha="true"></div>
                                     <div class="app-form-group buttons">
                                         <button type="submit" class="app-form-button">SEND</button>
                                     </div>
