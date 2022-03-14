@@ -1,6 +1,6 @@
 function validateName() {
   var name = document.getElementById('name').value;
-  if (name.length == 0) {
+  if (!name.match(/[a-zA-Z]+/)) {
     alert("Name can't be blank");
     return false;
   }
@@ -40,7 +40,7 @@ function validateEmail() {
 
 function validateMessage() {
   var message = document.getElementById('message').value;
-  if (message.length == 0) {
+  if (!message.match(/[a-zA-Z]+/)) {
     alert("Message can't be blank");
     return false;
   }
