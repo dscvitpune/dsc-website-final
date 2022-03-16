@@ -134,6 +134,7 @@ nav p {
         width: 80%;
         transition: transform 0.3s ease-in;
         z-index: 100;
+        display: block !important;
     }
     .nav-ul.show {
         transform: translateX(0);

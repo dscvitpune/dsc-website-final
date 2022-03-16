@@ -2,33 +2,33 @@ AOS.init();
 
 {
   let body,
-  mainContainer,
-  scene,
-  renderer,
-  camera,
-  cameraLookAt = new THREE.Vector3(0, 0, 0),
-  cameraTarget = new THREE.Vector3(0, 0, 800),
-  windowWidth,
-  windowHeight,
-  windowHalfWidth,
-  windowHalfHeight,
-  points,
-  mouseX = 0,
-  mouseY = 0,
-  gui,
-  stats,
-  contentElement,
-  colors = ['#4285F4', '#DB4437', '#F4B400', '#0F9D58'],
-  graphics,
-  currentGraphic = 0,
-  graphicCanvas,
-  gctx,
-  canvasWidth = 400,
-  canvasHeight = 330,
-  graphicPixels,
-  particles = [],
-  graphicOffsetX = canvasWidth / 2,
-  graphicOffsetY = canvasHeight / 4;
+    mainContainer,
+    scene,
+    renderer,
+    camera,
+    cameraLookAt = new THREE.Vector3(0, 0, 0),
+    cameraTarget = new THREE.Vector3(0, 0, 800),
+    windowWidth,
+    windowHeight,
+    windowHalfWidth,
+    windowHalfHeight,
+    points,
+    mouseX = 0,
+    mouseY = 0,
+    gui,
+    stats,
+    contentElement,
+    colors = ['#4285F4', '#DB4437', '#F4B400', '#0F9D58'],
+    graphics,
+    currentGraphic = 0,
+    graphicCanvas,
+    gctx,
+    canvasWidth = 400,
+    canvasHeight = 330,
+    graphicPixels,
+    particles = [],
+    graphicOffsetX = canvasWidth / 2,
+    graphicOffsetY = canvasHeight / 4;
 
   // -----------------------
   // Setup stage
@@ -52,7 +52,8 @@ AOS.init();
 
     renderer = new THREE.WebGLRenderer({
       alpha: true,
-      antialias: true });
+      antialias: true
+    });
 
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(windowWidth, windowHeight);
@@ -70,10 +71,10 @@ AOS.init();
     const nearPlane = 1;
     const farPlane = 3000;
     camera = new THREE.PerspectiveCamera(
-    fieldOfView,
-    aspectRatio,
-    nearPlane,
-    farPlane);
+      fieldOfView,
+      aspectRatio,
+      nearPlane,
+      farPlane);
     camera.position.z = 800;
   };
 
@@ -119,7 +120,8 @@ AOS.init();
     const particle = new THREE.Object3D();
     const geometryCore = new THREE.SphereGeometry(2, 4, 4);
     const materialCore = new THREE.MeshBasicMaterial({
-      color: colors[i % colors.length] });
+      color: colors[i % colors.length]
+    });
 
 
     const box = new THREE.Mesh(geometryCore, materialCore);
@@ -226,7 +228,8 @@ AOS.init();
         if (x && x % 2 == 0 && y && y % 2 == 0) {
           graphicPixels.push({
             x: x,
-            y: y });
+            y: y
+          });
 
         }
       }
@@ -316,10 +319,10 @@ AOS.init();
 
 
 // Counter
-
 function reInitCount() {
   $(".stat-count").each(function () {
-    $(this).html('0');
+    let start = $(this).data("start");
+    $(this).html(start);
     count($(this));
   });
 }
@@ -327,28 +330,14 @@ function reInitCount() {
 function count($this) {
   var current = parseInt($this.html(), 10);
   current = current + 1;
-  $this.html(++current);
+  $this.html(current);
 
-
-
-  if (current == $this.data('count')) {
-
-    $this.html($this.data('count')+ "+");
-  } 
-
-  else if (current > $this.data('count')) {
-
-    $this.html($this.data('count')+"+");
-  } 
-
-
-  
-
-
-  else {
+  if (current >= $this.data('count')) {
+    $this.html($this.data('count') + "+");
+  } else {
     setTimeout(function () {
       count($this);
-    }, 3);
+    }, 1 / current);
   }
 }
 
@@ -358,9 +347,7 @@ reInitCount();
 $(window).scroll(function (event) {
   var scroll = $(window).scrollTop();
   if (scroll == 0)
-  setTimeout(function () {reInitCount();}, 50);
-
-
+    setTimeout(function () { reInitCount(); }, 50);
 });
 
 
