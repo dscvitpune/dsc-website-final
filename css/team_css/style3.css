@@ -131,14 +131,14 @@
 }
 
 .ch-img-pr_m-2{ 
-	background-image: url(../../images/team/managers/LAUKIK_AVHAD.jpeg);
+	background-image: url(../../images/team/managers/ADITYA_HONRAO.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-.ch-img-mul-1{ 
-	background-image: url(../../images/team/managers/AMEY_THAKUR.jpeg);
+.ch-img-pr_m-3{ 
+	background-image: url(../../images/team/managers/LAUKIK_AVHAD.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -259,21 +259,7 @@
 }
 
 .ch-img-and-6{ 
-	background-image: url(../../images/team/android/ADITYA_HONARAO.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-and-7{ 
 	background-image: url(../../images/team/android/ATHARV_KINAGE.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-and-8{ 
-	background-image: url(../../images/team/android/AYUSH_NEGI.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -281,13 +267,6 @@
 
 
 /* Flutter Team */
-.ch-img-flutter-2{ 
-	background-image: url(../../images/team/flutter/sailesh_kadam.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
 .ch-img-flutter-3{ 
 	background-image: url(../../images/team/flutter/PUSHKAR_PAWAR.jpg);
 	height: 100%;
@@ -303,40 +282,32 @@
 }
 
 .ch-img-flutter-5{ 
-	background-image: url(../../images/team/flutter/SOHAM_SATTIGERI.jpg);
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.ch-img-flutter-6{ 
 	background-image: url(../../images/team/flutter/SAJAL_BHATTAR.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-.ch-img-flutter-7{ 
+.ch-img-flutter-6{ 
 	background-image: url(../../images/team/flutter/AAKASH_NIHALANI.JPG);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-.ch-img-flutter-8{ 
+.ch-img-flutter-7{ 
 	background-image: url(../../images/team/flutter/VEDANT_JORE.jpeg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
 
-.ch-img-flutter-9{ 
+.ch-img-flutter-8{ 
 	background-image: url(../../images/team/flutter/MITRAJEET_GOLSANGI.jpg);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
-
 
 
 /* Management Team */
@@ -449,6 +420,9 @@
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
+}
+.ch-info-h3-sm {
+	font-size: 11px !important;
 }
 
 .ch-info h4 {
